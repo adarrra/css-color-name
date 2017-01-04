@@ -1,0 +1,24 @@
+{
+  "name": "css-color-name",
+  "main": "./lib/css-color-name",
+  "version": "0.1.0",
+  "description": "Autocomplete of css predefined color names",
+  "keywords": [
+      "css",
+      "color",
+      "autocomplete"
+  ],
+  "activationCommands": {
+    "atom-workspace": "css-color-name:toggle"
+  },
+  "repository": "https://github.com/atom/css-color-name",
+  "license": "MIT",
+  "author": {
+      "name": "Adara Belaya"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

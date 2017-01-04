@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle css-color-name",
+        "command": "css-color-name:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "css-color-name",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "css-color-name:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

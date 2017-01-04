@@ -1,0 +1,14 @@
+{
+    "aliceblue" {
+        "name": "aliceblue",
+        "value": "rgb(240, 248, 255)"
+    },
+    "antiquewhite" {
+        "name": "antiquewhite",
+        "value": "rgb(250, 235, 215)"
+    },
+    "aqua" {
+        "name": "aqua",
+        "value": "rgb( 0, 255, 255)"
+    },
+}
