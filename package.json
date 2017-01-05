@@ -1,6 +1,6 @@
 {
   "name": "css-color-name",
-  "main": "./lib/css-color-name",
+  "main": "./lib/main",
   "version": "0.1.0",
   "description": "Autocomplete of css predefined color names",
   "keywords": [
@@ -20,5 +20,12 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
   }
 }
