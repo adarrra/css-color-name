@@ -1,8 +1,10 @@
-"properties" : [
-    "color",
-    "background-color",
-    "border",
-    "outline",
-    "box-shadow",
-    "linear-gradient",
-]
+{
+    "properties": [
+        "color",
+        "background-color",
+        "border",
+        "outline",
+        "box-shadow",
+        "linear-gradient"
+    ]
+}
