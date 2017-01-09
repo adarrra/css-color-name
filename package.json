@@ -6,12 +6,10 @@
   "keywords": [
       "css",
       "color",
-      "autocomplete"
+      "autocomplete",
+      "named colors"
   ],
-  "activationCommands": {
-    "atom-workspace": "css-color-name:toggle"
-  },
-  "repository": "https://github.com/atom/css-color-name",
+  "repository": "https://github.com/adarrra/css-color-name",
   "license": "MIT",
   "author": {
       "name": "Adara Belaya"
@@ -19,7 +17,7 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
+  "devDependencies": {
     "eslint": "^3.10.2",
     "eslint-config-es2015": "^1.1.0",
     "eslint-plugin-import": "^2.2.0"

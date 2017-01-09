@@ -1,4 +1,4 @@
-.classn {
+.classname {
     color: rebeccapurple;
 }
 
@@ -10,4 +10,12 @@ http://dev.mikamai.com/post/143061935049/atom-how-to-create-an-autocomplete-prov
 https://github.com/atom/autocomplete-plus/wiki/Provider-API
 https://drafts.csswg.org/css-color/
 https://github.com/bahamas10/css-color-names/blob/master/css-color-names.json
+https://github.com/nkt/atom-autocomplete-modules/tree/master/src
+https://atom.io/docs/api/v1.12.8/CompositeDisposables
+*/
+
+/*
+TODO:
+understand main js
+write some tests
 */

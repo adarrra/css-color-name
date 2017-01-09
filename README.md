@@ -1,6 +1,6 @@
-# WIP
-### css-color-name package
 
-A short description of your package.
+### css-color-name package for Atom editor
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Autocomplete for css default [named colors](https://drafts.csswg.org/css-color/#named-colors) 
+
+![screenshot](css-color-name/css_color_name_preview.png)
