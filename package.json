@@ -1,18 +1,18 @@
 {
   "name": "css-color-name",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Autocomplete of css predefined color names",
   "keywords": [
-      "css",
-      "color",
-      "autocomplete",
-      "named colors"
+    "css",
+    "color",
+    "autocomplete",
+    "named colors"
   ],
   "repository": "https://github.com/adarrra/css-color-name",
   "license": "MIT",
   "author": {
-      "name": "Adara Belaya"
+    "name": "Adara Belaya"
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
