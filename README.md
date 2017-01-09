@@ -3,4 +3,4 @@
 
 Autocomplete for css default [named colors](https://drafts.csswg.org/css-color/#named-colors) 
 
-![screenshot](css-color-name/css_color_name_preview.png)
+![screenshot](css_color_name_preview.png)
