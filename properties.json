@@ -4,5 +4,6 @@
     "border",
     "outline",
     "box-shadow",
-    "linear-gradient"
+    "linear-gradient",
+    "radial-gradient"
 ]
