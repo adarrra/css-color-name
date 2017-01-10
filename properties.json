@@ -1,9 +1,9 @@
 [
     "color",
     "background-color",
+    "background-image",
+    "background",
     "border",
     "outline",
-    "box-shadow",
-    "linear-gradient",
-    "radial-gradient"
+    "box-shadow"
 ]

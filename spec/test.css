@@ -12,12 +12,12 @@ https://drafts.csswg.org/css-color/
 https://github.com/bahamas10/css-color-names/blob/master/css-color-names.json
 https://github.com/nkt/atom-autocomplete-modules/tree/master/src
 https://atom.io/docs/api/v1.12.8/CompositeDisposables
+http://decaffeinate-project.org/repl
 */
-
 /*
 TODO:
 understand main js better
 write some tests
 stylus without colons?
-reduse autocomplete in units (borders, etc)
+? maybe reduse autocomplete in: % , solid dashed, linear-gradient, to left top, background keywords..
 */
