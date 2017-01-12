@@ -5,10 +5,12 @@ module.exports = {
     ],
     "plugins": [
         "import",
+        "jasmine"
     ],
     "env": {
      "browser": true,
-     "node": true
+     "node": true,
+     "jasmine": true
  },
  "parserOptions": {
     "ecmaVersion": 6,

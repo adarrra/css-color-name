@@ -27,7 +27,8 @@
   "devDependencies": {
     "eslint": "^3.10.2",
     "eslint-config-es2015": "^1.1.0",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jasmine": "^2.2.0"
   },
   "providedServices": {
     "autocomplete.provider": {
