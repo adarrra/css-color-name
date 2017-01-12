@@ -17,6 +17,13 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "activationHooks": [
+    "language-css:grammar-used",
+    "language-less:grammar-used",
+    "language-sass:grammar-used",
+    "language-scss:grammar-used",
+    "Stylus:grammar-used"
+  ],
   "devDependencies": {
     "eslint": "^3.10.2",
     "eslint-config-es2015": "^1.1.0",
