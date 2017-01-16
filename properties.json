@@ -4,6 +4,7 @@
     "background-image",
     "background",
     "border",
+    "border-color",
     "outline",
     "box-shadow"
 ]
