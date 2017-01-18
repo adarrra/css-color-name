@@ -23,25 +23,32 @@ import CssColorNameAutocomplete from '../lib/main'
 // https://github.com/atom/autocomplete-plus/tree/master/spec
 // https://discuss.atom.io/t/debugging-tests-specs/21222
 // https://discuss.atom.io/t/texteditor-buffer-async-problem-in-specs/36222
+// https://discuss.atom.io/t/activationhooks-break-unit-tests/36028/9
+// Pasha
 
-// we should activate package with triggerDeferredActivationHooks and activation grammar (see link above)... activatePackage doesn't return anything not work because I use hooks
-// sooo ... maybe I shoudn't test it at all!! Only autocomplete...
 
 describe('activated when we open a stylefile', () => {
     beforeEach(() => {
 
-    //   waitsForPromise(() => {
-    //     return atom.workspace.open('test.css');
-    //   });
 
       waitsForPromise(() => {
-        return  atom.packages.triggerActivationHook("language-css:grammar-used")
+        return atom.packages.activatePackage('language-css').then(()=>{
+            console.log('activated css');
+        });
       });
-      // atom.packages.triggerActivationHook("language-changes:grammar-used")
-      
-      atom.packages.triggerDeferredActivationHooks();
+
       waitsForPromise(() => {
-        return atom.packages.activatePackage('css-color-name');
+          return atom.workspace.open('test.css').then(()=>{
+              console.log('opened file');
+              atom.packages.triggerDeferredActivationHooks();  
+          });
+      });
+        
+
+      waitsForPromise(() => {
+          return atom.packages.activatePackage('css-color-name').then(()=>{
+              console.log('activated my p');
+          });
       });
       
     });
